@@ -1,12 +1,12 @@
 Summary:	Clarity Theme for Sphinx
 Name:		python3-sphinx_clarity_theme
-Version:	1.2.0
+Version:	2.1.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinx-clarity-theme/
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-clarity-theme/sphinx_clarity_theme-%{version}.tar.gz
-# Source0-md5:	b0a7647ba8d6474279e63b04fc2504fc
+# Source0-md5:	50be96d8eeaf2f56274efcc7bb194c81
 URL:		https://pypi.org/project/sphinx-clarity-theme/
 BuildRequires:	python3-build
 BuildRequires:	python3-installer
