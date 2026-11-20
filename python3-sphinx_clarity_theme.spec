@@ -1,4 +1,5 @@
 Summary:	Clarity Theme for Sphinx
+Summary(pl.UTF-8):	Motyw Clarity dla Sphinksa
 Name:		python3-sphinx_clarity_theme
 Version:	2.1.0
 Release:	1
@@ -9,17 +10,24 @@ Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-clarity-theme/s
 # Source0-md5:	50be96d8eeaf2f56274efcc7bb194c81
 URL:		https://pypi.org/project/sphinx-clarity-theme/
 BuildRequires:	python3-build
+BuildRequires:	python3-flit_core >= 3.2
+BuildRequires:	python3-flit_core < 4
 BuildRequires:	python3-installer
-BuildRequires:	python3-modules >= 1:3.6
+BuildRequires:	python3-modules >= 1:3.11
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.714
-Requires:	python3-modules >= 1:3.6
+BuildRequires:	rpmbuild(macros) >= 2.044
+Requires:	python3-modules >= 1:3.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A clean and professional documentation theme for Sphinx. Modern design
 with light/dark mode, responsive layout, and beautiful typography.
+
+%description -l pl.UTF-8
+Czysty i profesjonalny motyw dokumentacji dla Sphinksa. Nowoczesny
+wygląd z trybem jasnym i ciemny, responsywny układ oraz ładna
+typografia.
 
 %prep
 %setup -q -n sphinx_clarity_theme-%{version}
